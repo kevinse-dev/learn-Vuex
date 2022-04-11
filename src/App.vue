@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+
+  <comp-satu />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CompSatu from "./components/CompSatu.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CompSatu,
+  },
+};
 </script>
 
 <style>
